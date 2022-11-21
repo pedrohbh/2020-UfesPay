@@ -46,5 +46,7 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Fcreateacc/createAccForm" supplier="//@compose.1/components%2Fcreateacc.1/createacc" method="//@compose.1/components%2Fcreateacc.1/createacc/handleSubmit"/>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="View Package"/>
+    <packagedElement xsi:type="frameweb:ControllerPackage" name="Controller Package"/>
   </compose>
 </frameweb:FramewebProject>

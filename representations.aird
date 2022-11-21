@@ -18,7 +18,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebEntityModel']"/>
         <target xmi:type="frameweb:EntityModel" href="Model.frameweb#//@compose.0"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_583FUGnbEe2D1pQbotaKnQ" name="FrameWebNavigationModel" repPath="#_58yM0GnbEe2D1pQbotaKnQ" changeId="f2884fc1-700d-40f5-bfd0-2722dcd4c4fd">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_583FUGnbEe2D1pQbotaKnQ" name="FrameWebNavigationModel" repPath="#_58yM0GnbEe2D1pQbotaKnQ" changeId="0917d785-230f-487f-b985-7bf657aad6ca">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']"/>
         <target xmi:type="frameweb:NavigationModel" href="Model.frameweb#//@compose.1"/>
       </ownedRepresentationDescriptors>
@@ -245,7 +245,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_60URw2nbEe2D1pQbotaKnQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_60TqsWnbEe2D1pQbotaKnQ" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_60TqsmnbEe2D1pQbotaKnQ" x="525" y="110"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_60TqsmnbEe2D1pQbotaKnQ" x="530" y="80"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_59GV4mnbEe2D1pQbotaKnQ"/>
       </data>
@@ -253,17 +253,20 @@
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_59NqoGnbEe2D1pQbotaKnQ" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_59NqoWnbEe2D1pQbotaKnQ"/>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_6bzEEGnbEe2D1pQbotaKnQ" name="View Package">
-      <target xmi:type="frameweb:ViewPackage" href="Model.frameweb#//@compose.1/View%20Package"/>
-      <semanticElements xmi:type="frameweb:ViewPackage" href="Model.frameweb#//@compose.1/View%20Package"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_6bzEEGnbEe2D1pQbotaKnQ" name="components/createacc">
+      <target xmi:type="frameweb:ViewPackage" href="Model.frameweb#//@compose.1/components%2Fcreateacc"/>
+      <semanticElements xmi:type="frameweb:ViewPackage" href="Model.frameweb#//@compose.1/components%2Fcreateacc"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_6bzEEWnbEe2D1pQbotaKnQ" iconPath="/br.ufes.inf.nemo.FrameWeb_Martins2015.design/icons/NavigationPackage.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']/@defaultLayer/@containerMappings[name='View%20Package']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']/@defaultLayer/@containerMappings[name='View%20Package']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_6z9FYGnbEe2D1pQbotaKnQ" name="Controller Package">
-      <target xmi:type="frameweb:ControllerPackage" href="Model.frameweb#//@compose.1/Controller%20Package"/>
-      <semanticElements xmi:type="frameweb:ControllerPackage" href="Model.frameweb#//@compose.1/Controller%20Package"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_6z9FYGnbEe2D1pQbotaKnQ" name="components/createacc">
+      <target xmi:type="frameweb:ControllerPackage" href="Model.frameweb#//@compose.1/components%2Fcreateacc.1"/>
+      <semanticElements xmi:type="frameweb:ControllerPackage" href="Model.frameweb#//@compose.1/components%2Fcreateacc.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_6z9FYWnbEe2D1pQbotaKnQ" iconPath="/br.ufes.inf.nemo.FrameWeb_Martins2015.design/icons/NavigationPackage.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']/@defaultLayer/@containerMappings[name='Controller%20Package']/@style"/>
       </ownedStyle>

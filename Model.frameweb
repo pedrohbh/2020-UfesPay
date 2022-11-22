@@ -144,5 +144,16 @@
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Fmenuitem/menuitem" supplier="//@compose.1/components%2Fmenuitem.1/menuitem"/>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Fmenu/menu" supplier="//@compose.1/components%2Fmenu.1/menu"/>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="components/navitem">
+      <packagedElement xsi:type="frameweb:Partial" name="navitem">
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="icon">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/a"/>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:ControllerPackage" name="components/navitem">
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="navitem"/>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Fnavitem/navitem" supplier="//@compose.1/components%2Fnavitem.1/navitem"/>
   </compose>
 </frameweb:FramewebProject>

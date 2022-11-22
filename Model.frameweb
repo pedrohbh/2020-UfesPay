@@ -117,7 +117,17 @@
       <packagedElement xsi:type="frameweb:FrontControllerClass" name="menu"/>
     </packagedElement>
     <packagedElement xsi:type="frameweb:ViewPackage" name="components/menuitem">
-      <packagedElement xsi:type="frameweb:Partial" name="menuitem"/>
+      <packagedElement xsi:type="frameweb:Partial" name="menuitem">
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="whereTo">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/a"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="leftIcon">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/span"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="rightIcon">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/span"/>
+        </ownedAttribute>
+      </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:ControllerPackage" name="components/menuitem">
       <packagedElement xsi:type="frameweb:FrontControllerClass" name="menuitem"/>

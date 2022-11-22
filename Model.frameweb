@@ -130,7 +130,17 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:ControllerPackage" name="components/menuitem">
-      <packagedElement xsi:type="frameweb:FrontControllerClass" name="menuitem"/>
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="menuitem">
+        <ownedAttribute xsi:type="frameweb:IOParameter" name="whereTo">
+          <type xsi:type="uml:Class" href="frameweb/Java.frameweb#//@compose.0/String"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:IOParameter" name="leftIcon">
+          <type xsi:type="uml:Class" href="frameweb/Java.frameweb#//@compose.0/String"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:IOParameter" name="rightIcon">
+          <type xsi:type="uml:Class" href="frameweb/Java.frameweb#//@compose.0/String"/>
+        </ownedAttribute>
+      </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Fmenuitem/menuitem" supplier="//@compose.1/components%2Fmenuitem.1/menuitem"/>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Fmenu/menu" supplier="//@compose.1/components%2Fmenu.1/menu"/>

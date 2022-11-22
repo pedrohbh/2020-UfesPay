@@ -72,5 +72,20 @@
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Flayout/layout" supplier="//@compose.1/components%2Flayout.1/layout"/>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Fnavtop/navtop" supplier="//@compose.1/components%2Fnavtop.1/navtop"/>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="components/login">
+      <packagedElement xsi:type="frameweb:Partial" name="login">
+        <ownedAttribute xsi:type="frameweb:NavigationCompositionWhole" type="//@compose.1/components%2Flogin/loginForm" association="//@compose.1/components%2Flogin/@packagedElement.2"/>
+      </packagedElement>
+      <packagedElement xsi:type="frameweb:UIComponent" name="loginForm"/>
+      <packagedElement xsi:type="frameweb:NavigationAssociation" memberEnd="//@compose.1/components%2Flogin/@packagedElement.2/@ownedEnd.0 //@compose.1/components%2Flogin/login/@ownedAttribute.0">
+        <ownedEnd xsi:type="frameweb:NavigationCompositionPart" type="//@compose.1/components%2Flogin/login" association="//@compose.1/components%2Flogin/@packagedElement.2"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:ControllerPackage" name="components/login">
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="login">
+        <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="handleSubmit"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Flogin/loginForm" supplier="//@compose.1/components%2Flogin.1/login" method="//@compose.1/components%2Flogin.1/login/handleSubmit"/>
   </compose>
 </frameweb:FramewebProject>

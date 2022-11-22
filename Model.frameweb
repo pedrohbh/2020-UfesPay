@@ -186,7 +186,11 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:ControllerPackage" name="components/news">
-      <packagedElement xsi:type="frameweb:FrontControllerClass" name="news"/>
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="news">
+        <ownedAttribute xsi:type="frameweb:IOParameter" name="transactions">
+          <type xsi:type="uml:Class" href="frameweb/Java.frameweb#//@compose.0/String"/>
+        </ownedAttribute>
+      </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:ViewPackage" name="components/transfercard">
       <packagedElement xsi:type="frameweb:Partial" name="transfercard"/>
@@ -196,5 +200,29 @@
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Fnews/news" supplier="//@compose.1/components%2Fnews.1/news"/>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Ftransfercard/transfercard" supplier="//@compose.1/components%2Ftransfercard.1/transfercard"/>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="components/profile">
+      <packagedElement xsi:type="frameweb:Partial" name="profile">
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="Avatar">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="user.name">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/h3"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="user.email">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/h3"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="user.wallet.balance">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/h1"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:NavigationCompositionWhole" type="//@compose.1/components%2Fprofile/profileForm" association="//@compose.1/components%2Fprofile/@packagedElement.2"/>
+      </packagedElement>
+      <packagedElement xsi:type="frameweb:UIComponent" name="profileForm"/>
+      <packagedElement xsi:type="frameweb:NavigationAssociation" memberEnd="//@compose.1/components%2Fprofile/@packagedElement.2/@ownedEnd.0 //@compose.1/components%2Fprofile/profile/@ownedAttribute.4">
+        <ownedEnd xsi:type="frameweb:NavigationCompositionPart" type="//@compose.1/components%2Fprofile/profile" association="//@compose.1/components%2Fprofile/@packagedElement.2"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:ControllerPackage" name="components/profile">
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="profile"/>
+    </packagedElement>
   </compose>
 </frameweb:FramewebProject>

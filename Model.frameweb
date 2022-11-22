@@ -193,13 +193,81 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:ViewPackage" name="components/transfercard">
-      <packagedElement xsi:type="frameweb:Partial" name="transfercard"/>
+      <packagedElement xsi:type="frameweb:Partial" name="transfercard">
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="CardHeader">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="CardContent">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="Typography">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="Typography">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="CardActions">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="likesNumber">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/p"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="IconButton">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="FavoriteIcon">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="transac.comments.length">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/p"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="IconButton">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="ChatBubbleOutlineIcon">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="Collapse">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="CardContent">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="Typography">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="comment.author.name">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/strong"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="IconButton">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="Delete">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:NavigationCompositionWhole" type="//@compose.1/components%2Ftransfercard/transfercardForm" association="//@compose.1/components%2Ftransfercard/@packagedElement.2"/>
+      </packagedElement>
+      <packagedElement xsi:type="frameweb:UIComponent" name="transfercardForm">
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="TextField">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="IconButton">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="Send">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="frameweb:NavigationAssociation" memberEnd="//@compose.1/components%2Ftransfercard/@packagedElement.2/@ownedEnd.0 //@compose.1/components%2Ftransfercard/transfercard/@ownedAttribute.17">
+        <ownedEnd xsi:type="frameweb:NavigationCompositionPart" type="//@compose.1/components%2Ftransfercard/transfercard" association="//@compose.1/components%2Ftransfercard/@packagedElement.2"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:ControllerPackage" name="components/transfercard">
-      <packagedElement xsi:type="frameweb:FrontControllerClass" name="transfercard"/>
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="transfercard">
+        <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="handleComment"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Fnews/news" supplier="//@compose.1/components%2Fnews.1/news"/>
-    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Ftransfercard/transfercard" supplier="//@compose.1/components%2Ftransfercard.1/transfercard"/>
     <packagedElement xsi:type="frameweb:ViewPackage" name="components/profile">
       <packagedElement xsi:type="frameweb:Partial" name="profile">
         <ownedAttribute xsi:type="frameweb:UIComponentField" name="Avatar">
@@ -247,5 +315,6 @@
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Fprofile/profileForm" supplier="//@compose.1/components%2Fprofile.1/profile" method="//@compose.1/components%2Fprofile.1/profile/saveProfileChanges"/>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Fprofile/profileForm" supplier="//@compose.1/components%2Fprofile.1/profile" method="//@compose.1/components%2Fprofile.1/profile/handleCancel"/>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Fprofile/profileForm" supplier="//@compose.1/components%2Fprofile.1/profile" method="//@compose.1/components%2Fprofile.1/profile/setEdit"/>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Ftransfercard/transfercardForm" supplier="//@compose.1/components%2Ftransfercard.1/transfercard" method="//@compose.1/components%2Ftransfercard.1/transfercard/handleComment"/>
   </compose>
 </frameweb:FramewebProject>

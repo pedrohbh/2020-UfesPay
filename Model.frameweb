@@ -331,5 +331,11 @@
       <packagedElement xsi:type="frameweb:FrontControllerClass" name="transferhistory"/>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Ftransferhistory/transferhistory" supplier="//@compose.1/components%2Ftransferhistory.1/transferhistory"/>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="views/home">
+      <packagedElement xsi:type="frameweb:Partial" name="home"/>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:ControllerPackage" name="views/home">
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="home"/>
+    </packagedElement>
   </compose>
 </frameweb:FramewebProject>

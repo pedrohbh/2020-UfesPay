@@ -363,5 +363,54 @@
       <packagedElement xsi:type="frameweb:FrontControllerClass" name="landingpage"/>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/views%2Flandingpage/landingpage" supplier="//@compose.1/views%2Flandingpage.1/landingpage"/>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="views/transfer">
+      <packagedElement xsi:type="frameweb:Partial" name="transfer">
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="CardHeader">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="CardContent">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:NavigationCompositionWhole" type="//@compose.1/views%2Ftransfer/transferForm" association="//@compose.1/views%2Ftransfer/@packagedElement.2"/>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="Card">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="CardActions">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="frameweb:UIComponent" name="transferForm">
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="AutoComplete">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="option.name">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/strong"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="option.email">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/span"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="TextField">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="TextField">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="TextField">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="AttatchMoney">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="frameweb:NavigationAssociation" memberEnd="//@compose.1/views%2Ftransfer/@packagedElement.2/@ownedEnd.0 //@compose.1/views%2Ftransfer/transfer/@ownedAttribute.2">
+        <ownedEnd xsi:type="frameweb:NavigationCompositionPart" type="//@compose.1/views%2Ftransfer/transfer" association="//@compose.1/views%2Ftransfer/@packagedElement.2"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:ControllerPackage" name="views/transfer">
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="transfer">
+        <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="handlePay"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/views%2Ftransfer/transferForm" supplier="//@compose.1/views%2Ftransfer.1/transfer" method="//@compose.1/views%2Ftransfer.1/transfer/handlePay"/>
   </compose>
 </frameweb:FramewebProject>

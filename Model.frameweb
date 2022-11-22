@@ -155,5 +155,7 @@
       <packagedElement xsi:type="frameweb:FrontControllerClass" name="navitem"/>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Fnavitem/navitem" supplier="//@compose.1/components%2Fnavitem.1/navitem"/>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="components/navtop"/>
+    <packagedElement xsi:type="frameweb:ControllerPackage" name="components/navtop"/>
   </compose>
 </frameweb:FramewebProject>

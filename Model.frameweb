@@ -332,10 +332,36 @@
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Ftransferhistory/transferhistory" supplier="//@compose.1/components%2Ftransferhistory.1/transferhistory"/>
     <packagedElement xsi:type="frameweb:ViewPackage" name="views/home">
-      <packagedElement xsi:type="frameweb:Partial" name="home"/>
+      <packagedElement xsi:type="frameweb:Partial" name="home">
+        <ownedAttribute xsi:type="frameweb:NavigationAggregationTarget" type="//@compose.1/components%2Fprofile/profile" association="//@compose.1/views%2Fhome/@packagedElement.1"/>
+        <ownedAttribute xsi:type="frameweb:NavigationAggregationTarget" type="//@compose.1/components%2Fnews/news" association="//@compose.1/views%2Fhome/@packagedElement.2"/>
+      </packagedElement>
+      <packagedElement xsi:type="frameweb:NavigationAggregationAssociation" memberEnd="//@compose.1/views%2Fhome/@packagedElement.1/@ownedEnd.0 //@compose.1/views%2Fhome/home/@ownedAttribute.0">
+        <ownedEnd xsi:type="frameweb:NavigationAggregationSource" type="//@compose.1/views%2Fhome/home" association="//@compose.1/views%2Fhome/@packagedElement.1"/>
+      </packagedElement>
+      <packagedElement xsi:type="frameweb:NavigationAggregationAssociation" memberEnd="//@compose.1/views%2Fhome/@packagedElement.2/@ownedEnd.0 //@compose.1/views%2Fhome/home/@ownedAttribute.1">
+        <ownedEnd xsi:type="frameweb:NavigationAggregationSource" type="//@compose.1/views%2Fhome/home" association="//@compose.1/views%2Fhome/@packagedElement.2"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:ControllerPackage" name="views/home">
       <packagedElement xsi:type="frameweb:FrontControllerClass" name="home"/>
     </packagedElement>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/views%2Fhome/home" supplier="//@compose.1/views%2Fhome.1/home"/>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="views/landingpage">
+      <packagedElement xsi:type="frameweb:Partial" name="landingpage">
+        <ownedAttribute xsi:type="frameweb:NavigationAggregationTarget" type="//@compose.1/components%2Flogin/login" association="//@compose.1/views%2Flandingpage/@packagedElement.1"/>
+        <ownedAttribute xsi:type="frameweb:NavigationAggregationTarget" type="//@compose.1/components%2Fcreateacc/createacc" association="//@compose.1/views%2Flandingpage/@packagedElement.2"/>
+      </packagedElement>
+      <packagedElement xsi:type="frameweb:NavigationAggregationAssociation" memberEnd="//@compose.1/views%2Flandingpage/@packagedElement.1/@ownedEnd.0 //@compose.1/views%2Flandingpage/landingpage/@ownedAttribute.0">
+        <ownedEnd xsi:type="frameweb:NavigationAggregationSource" type="//@compose.1/views%2Flandingpage/landingpage" association="//@compose.1/views%2Flandingpage/@packagedElement.1"/>
+      </packagedElement>
+      <packagedElement xsi:type="frameweb:NavigationAggregationAssociation" memberEnd="//@compose.1/views%2Flandingpage/@packagedElement.2/@ownedEnd.0 //@compose.1/views%2Flandingpage/landingpage/@ownedAttribute.1">
+        <ownedEnd xsi:type="frameweb:NavigationAggregationSource" type="//@compose.1/views%2Flandingpage/landingpage" association="//@compose.1/views%2Flandingpage/@packagedElement.2"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:ControllerPackage" name="views/landingpage">
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="landingpage"/>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/views%2Flandingpage/landingpage" supplier="//@compose.1/views%2Flandingpage.1/landingpage"/>
   </compose>
 </frameweb:FramewebProject>

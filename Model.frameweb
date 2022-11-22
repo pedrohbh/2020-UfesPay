@@ -177,5 +177,24 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Fnavtop/navtop" supplier="//@compose.1/components%2Fnavtop.1/navtop" method="//@compose.1/components%2Fnavtop.1/navtop/logOut"/>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="components/news">
+      <packagedElement xsi:type="frameweb:Partial" name="news">
+        <ownedAttribute xsi:type="frameweb:NavigationAggregationTarget" type="//@compose.1/components%2Ftransfercard/transfercard" association="//@compose.1/components%2Fnews/@packagedElement.1"/>
+      </packagedElement>
+      <packagedElement xsi:type="frameweb:NavigationAggregationAssociation" memberEnd="//@compose.1/components%2Fnews/@packagedElement.1/@ownedEnd.0 //@compose.1/components%2Fnews/news/@ownedAttribute.0">
+        <ownedEnd xsi:type="frameweb:NavigationAggregationSource" type="//@compose.1/components%2Fnews/news" association="//@compose.1/components%2Fnews/@packagedElement.1"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:ControllerPackage" name="components/news">
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="news"/>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="components/transfercard">
+      <packagedElement xsi:type="frameweb:Partial" name="transfercard"/>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:ControllerPackage" name="components/transfercard">
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="transfercard"/>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Fnews/news" supplier="//@compose.1/components%2Fnews.1/news"/>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Ftransfercard/transfercard" supplier="//@compose.1/components%2Ftransfercard.1/transfercard"/>
   </compose>
 </frameweb:FramewebProject>

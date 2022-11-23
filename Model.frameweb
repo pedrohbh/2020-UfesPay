@@ -408,5 +408,12 @@
       <packagedElement xsi:type="frameweb:FrontControllerClass" name="layout"/>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Flayout/layout" supplier="//@compose.1/components%2Flayout.1/layout"/>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="components/transferencia">
+      <packagedElement xsi:type="frameweb:Partial" name="transferencia"/>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:ControllerPackage" name="components/transferencia">
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="transferencia"/>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Ftransferencia/transferencia" supplier="//@compose.1/components%2Ftransferencia.1/transferencia"/>
   </compose>
 </frameweb:FramewebProject>

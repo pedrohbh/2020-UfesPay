@@ -393,5 +393,20 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/views%2Ftransfer/transferForm" supplier="//@compose.1/views%2Ftransfer.1/transfer" method="//@compose.1/views%2Ftransfer.1/transfer/handlePay"/>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="components/layout">
+      <packagedElement xsi:type="frameweb:Partial" name="layout">
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="children">
+          <type xsi:type="frameweb:Tag" href="frameweb/react/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/div"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:NavigationAggregationTarget" type="//@compose.1/components%2Fnavtop/navtop" association="//@compose.1/components%2Flayout/@packagedElement.1"/>
+      </packagedElement>
+      <packagedElement xsi:type="frameweb:NavigationAggregationAssociation" memberEnd="//@compose.1/components%2Flayout/@packagedElement.1/@ownedEnd.0 //@compose.1/components%2Flayout/layout/@ownedAttribute.1">
+        <ownedEnd xsi:type="frameweb:NavigationAggregationSource" type="//@compose.1/components%2Flayout/layout" association="//@compose.1/components%2Flayout/@packagedElement.1"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:ControllerPackage" name="components/layout">
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="layout"/>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/components%2Flayout/layout" supplier="//@compose.1/components%2Flayout.1/layout"/>
   </compose>
 </frameweb:FramewebProject>

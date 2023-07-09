@@ -7,7 +7,7 @@ export default function menu(props) {
 	
 	render() {  
       return (
-        <div><HomeIcon ></HomeIcon><PaymentIcon ></PaymentIcon><ExitToAppIcon ></ExitToAppIcon>
+        <div>
 		
 		<menuitem />
 		
